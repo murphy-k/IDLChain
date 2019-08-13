@@ -13,18 +13,18 @@ public class Transaction {
         public float value;
         public byte[] signature;        // This prevents anyone else from spending funds in your wallet.
 
-        public ArrayList<TransactionInput> inputs = new ArrayList<TransactionInput>();
-        public ArrayList<TransactionOutput> outputs = new ArrayList<TransactionOutput>();
+        /*public ArrayList<TransactionInput> inputs = new ArrayList<TransactionInput>();
+        public ArrayList<TransactionOutput> outputs = new ArrayList<TransactionOutput>();*/
 
         private static int sequence = 0;    // Approximate count of how many transactions have been generated.
 
         // Constructor:
-        public Transaction(PublicKey from, PublicKey to, float value, ArrayList<TransactionInput> inputs) {
+        /*public Transaction(PublicKey from, PublicKey to, float value, ArrayList<TransactionInput> inputs) {
                 this.sender = from;
                 this.reciepient = to;
                 this.value = value;
                 this.inputs = inputs;
-        }
+        }*/
 
     // This calculates the transaction hash (which will be used as its Id).
     private String calculateHash() {
