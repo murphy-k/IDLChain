@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="140bddd4-495c-4e28-b0c5-c91f37d36a0e" name="Default Changelist" comment="Merge branch 'master' of https://github.com/murphy-k/IDLChain&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;#&#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit.">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/IDLChain/IDLChain/Block.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/IDLChain/IDLChain/IDLChain.class" beforeDir="false" />
@@ -9,6 +10,16 @@
       <change beforePath="$PROJECT_DIR$/out/production/IDLChain/IDLChain/Wallet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/IDLChain/META-INF/IDLChain.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/IDLChain/IDLChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IDLChain/IDLChain.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IDLChain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IDLChain.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IDLChain/IDLChain/IDLChain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IDLChain/IDLChain/IDLChain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IDLChain/IDLChain/StringUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IDLChain/IDLChain/StringUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IDLChain/META-INF/IDLChain.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IDLChain/IDLChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IDLChain/IDLChain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IDLChain/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IDLChain/StringUtil.java" afterDir="false" />
+>>>>>>> 1e05a86ee20f81f4e418afe3eb2cb53a0b222c94
       <change beforePath="$PROJECT_DIR$/src/IDLChain/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IDLChain/Transaction.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,12 +55,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -116,12 +128,17 @@
       <workItem from="1565210362253" duration="2000" />
       <workItem from="1565362679683" duration="73000" />
       <workItem from="1565362810588" duration="294000" />
+<<<<<<< HEAD
       <workItem from="1565363607542" duration="5790000" />
       <workItem from="1565703050135" duration="117000" />
       <workItem from="1567217832724" duration="27000" />
       <workItem from="1567218097666" duration="598000" />
       <workItem from="1569964475966" duration="401000" />
       <workItem from="1570132061075" duration="6000" />
+=======
+      <workItem from="1565363607542" duration="4953000" />
+      <workItem from="1565711794215" duration="949000" />
+>>>>>>> 1e05a86ee20f81f4e418afe3eb2cb53a0b222c94
     </task>
     <task id="LOCAL-00001" summary="&quot;blockchain built - need to design wallet next.&quot;">
       <created>1565210206410</created>
