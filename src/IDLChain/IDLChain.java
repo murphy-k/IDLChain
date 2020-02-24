@@ -2,7 +2,7 @@ package IDLChain;
 
 import java.security.Security;
 import java.util.ArrayList;
-import java.util.Base64
+import java.util.Base64;
 import com.google.gson.GsonBuilder;
 
 public class IDLChain {
@@ -13,22 +13,21 @@ public class IDLChain {
 	public static Wallet walletB;
 
 	public static void main(String[] args) {
-		//add our blocks to the blockchain ArrayList:
-
-		System.out.println("Trying to Mine block 1... ");
-		addBlock(new Block("This is the first block.","0"));
-
-		System.out.println("Trying to Mine block 2... ");
-		addBlock(new Block("This is the second block.",blockchain.get(blockchain.size()-1).hash));
-
-		System.out.println("Trying to Mine block 3... ");
-        addBlock(new Block("This is the third block.", blockchain.get(blockchain.size()-1).hash));
-
-		System.out.println("\nBlockchain is Valid: " + isChainValid());
-
-		String blockchainJson = StringUtil.getJson(blockchain);
-		System.out.println("\nThe block chain: ");
-		System.out.println(blockchainJson);
+			// Setup Bouncey castle as a Security Provider.
+			Security.addProvider(new org.bouncycastle.jce.provider.BouncyCastleProvider());
+			// Create new wallets
+			walletA = new Wallet();
+			walletB = new Wallet();
+			// Test out public and private keys.
+			System.out.println("Private and public keys: ");
+			System.out.println(StringUtil.getStringFromKey(walletA.privateKey));
+			System.out.println(StringUtil.getStringFromKey(walletA.publicKey));
+			// Create a test transaction from walletA to walletB.
+			Transaction transaction = new Transaction(walletA.publicKey, walletB.publicKey, 5, null);
+			transaction.generateSignature(walletA.privateKey);
+			// Verify the signature works and verify it from the public key.
+		System.out.println("Is signature verified");
+		System.out.println(transaction.verifySignature());
 	}
 
 	public static Boolean isChainValid() {

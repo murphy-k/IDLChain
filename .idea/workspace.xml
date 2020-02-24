@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="140bddd4-495c-4e28-b0c5-c91f37d36a0e" name="Default Changelist" comment="Merge branch 'master' of https://github.com/murphy-k/IDLChain&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;#&#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit.">
-      <change afterPath="$PROJECT_DIR$/src/IDLChain/Transaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IDLChain/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IDLChain/Block.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IDLChain/IDLChain/Block.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IDLChain/IDLChain/IDLChain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IDLChain/IDLChain/StringUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IDLChain/IDLChain/Wallet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IDLChain/META-INF/IDLChain.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/IDLChain/IDLChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IDLChain/IDLChain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IDLChain/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IDLChain/StringUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IDLChain/Wallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IDLChain/Wallet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IDLChain/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IDLChain/Transaction.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,9 +30,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1890" />
+    <option name="width" value="1920" />
     <option name="height" value="1177" />
   </component>
   <component name="ProjectId" id="1PC0WzQr2IiSNr3KHFVjLnTslcK" />
@@ -115,7 +116,12 @@
       <workItem from="1565210362253" duration="2000" />
       <workItem from="1565362679683" duration="73000" />
       <workItem from="1565362810588" duration="294000" />
-      <workItem from="1565363607542" duration="4953000" />
+      <workItem from="1565363607542" duration="5790000" />
+      <workItem from="1565703050135" duration="117000" />
+      <workItem from="1567217832724" duration="27000" />
+      <workItem from="1567218097666" duration="598000" />
+      <workItem from="1569964475966" duration="401000" />
+      <workItem from="1570132061075" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;blockchain built - need to design wallet next.&quot;">
       <created>1565210206410</created>
@@ -138,6 +144,20 @@
             <State>
               <option name="COLUMN_ORDER" />
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>

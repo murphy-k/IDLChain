@@ -9,7 +9,7 @@ public class Transaction {
 
         public String transactionId;    // This is also the hash of the transaction.
         public PublicKey sender;        // Sender's address/public key.
-        public PublicKey reciepient;     // reciepient's address/public key.
+        public PublicKey recipient;     // recipient's address/public key.
         public float value;
         public byte[] signature;        // This prevents anyone else from spending funds in your wallet.
 
@@ -21,7 +21,7 @@ public class Transaction {
         // Constructor:
         public Transaction(PublicKey from, PublicKey to, float value, ArrayList<TransactionInput> inputs) {
                 this.sender = from;
-                this.reciepient = to;
+                this.recipient = to;
                 this.value = value;
                 this.inputs = inputs;
         }
@@ -31,19 +31,19 @@ public class Transaction {
             sequence++; // Increase the sequence to avoid 2 identical transactions having the same hash.
             return StringUtil.applySha256(
                         StringUtil.getStringFromKey(sender) +
-                        StringUtil.getStringFromKey(reciepient) +
+                        StringUtil.getStringFromKey(recipient) +
                         Float.toString(value) + sequence
             );
     }
 
     // Signs all the data we don't want tampered with.
     public void generateSignature(PrivateKey privateKey) {
-                String data = StringUtil.getStringFromKey(sender) + StringUtil.getStringFromKey(reciepient) + Float.toString(value);
+                String data = StringUtil.getStringFromKey(sender) + StringUtil.getStringFromKey(recipient) + Float.toString(value);
                 signature = StringUtil.applyECDSASig(privateKey,data);
     }
     // Verifies the data we signed hasn't been tampered with.
     public boolean verifySignature() {
-            String data = StringUtil.getStringFromKey(sender) + StringUtil.getStringFromKey(reciepient) + Float.toString(value);
+            String data = StringUtil.getStringFromKey(sender) + StringUtil.getStringFromKey(recipient) + Float.toString(value);
             return StringUtil.verifyECDSASig(sender, data, signature);
     }
 }
